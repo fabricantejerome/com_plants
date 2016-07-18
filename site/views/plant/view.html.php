@@ -24,11 +24,8 @@ class PlantsViewPlant extends JViewLegacy
 		$context = "plants.list.site.plant";
 		$model = $this->getModel();
 		$this->items = $model->getItems($id);
-		//$this->pagination		= $this->get('Pagination');
 		$this->state			= $this->get('State');
 
-		// $this->filter_order 	= $app->getUserStateFromRequest($context.'filter_order', 'filter_order', 'id', 'cmd');
-		// $this->filter_order_Dir = $app->getUserStateFromRequest($context.'filter_order_Dir', 'filter_order_Dir', 'asc', 'cmd');
 		
 		parent::display($tpl);
 	}

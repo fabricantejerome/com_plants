@@ -10,7 +10,7 @@
 // No direct access to this file
 defined('_JEXEC') or die('Restricted access');
 
-// Get an instance of the controller prefixed by HelloWorld
+// Get an instance of the controller prefixed by Plants
 $controller = JControllerLegacy::getInstance('Plants');
 
 // Perform the Request task

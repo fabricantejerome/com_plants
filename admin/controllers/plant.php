@@ -13,7 +13,7 @@ defined('_JEXEC') or die('Restricted access');
  * HelloWorld Controller
  *
  * @package     Joomla.Administrator
- * @subpackage  com_helloworld
+ * @subpackage  com_plants
  * @since       0.0.9
  */
 class PlantsControllerPlant extends JControllerForm
